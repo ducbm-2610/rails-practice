@@ -22,6 +22,15 @@
   </div>
 
   <div>
+    <%= form.label :gender, style: "display: block" %>
+    <%= form.text_field :gender %>
+  </div>
+  <div>
+    <%= form.label :DOB, style: "display: block" %>
+    <%= form.date_field :date_of_birth, style: "display: block" %>
+  </div>
+
+  <div>
     <%= form.submit %>
   </div>
 <% end %>
